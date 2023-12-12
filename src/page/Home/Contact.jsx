@@ -1,8 +1,23 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_y9ie19r', 'template_06scc5b', form.current, 'LTu1g8i9IIhfTU9qv')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
         <div id="contact" className="my-20">
             <h2 className="text-2xl md:text-3xl font-bold text-center my-10">Contact me</h2>
@@ -28,6 +43,43 @@ const Contact = () => {
                 </div>
             </div>
 
+            <div className="border border-fuchsia-500  p-5 m-8 rounded-xl bg-slate-700 ">
+                <form ref={form} className="card-body" onSubmit={sendEmail}>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text font-bold text-white">Name</span>
+                        </label>
+                        <input type="text" placeholder="Your name" name="from_name" className="input border input-bordered" required />
+                    </div>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text font-bold text-white">Email</span>
+                        </label>
+                        <input type="email" placeholder="Your email" name="from_email" className="input input-bordered" required />
+                    </div>
+
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text font-bold text-white">Message</span>
+                        </label>
+                        <textarea className="border rounded" name="message" />
+
+
+                        <input className="btn mt-5 uppercase font-bold text-xl" type="submit" value="Send" />
+                    </div>
+
+                    {/* <label>Name</label> 
+                    <input type="text" name="from_name" /> */}
+
+                    {/* <label>Email</label>
+                    <input type="email" name="from_email" /> */}
+
+                    {/* <label>Message</label>
+                    <textarea name="message" />
+
+                    <input type="submit" value="Send" /> */}
+                </form>
+            </div>
         </div>
     );
 };

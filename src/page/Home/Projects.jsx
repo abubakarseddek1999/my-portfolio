@@ -2,7 +2,7 @@ import { FaSquareArrowUpRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const Projects = () => {
     return (
-        <div className="my-16 m-2">
+        <div id="project" className="my-16 m-2">
             <h2 className="text-center text-3xl font-bold my-5">My Projects:</h2>
 
             <div className="">
