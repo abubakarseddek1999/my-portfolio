@@ -1,3 +1,4 @@
+import { FaGithub } from "react-icons/fa";
 import { FaSquareArrowUpRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const Projects = () => {
@@ -27,11 +28,16 @@ const Projects = () => {
                                     This is Computer center website. You can easily any computer repair in this website.
                                 </p>
                             </div>
-                            <div className="flex items-center justify-between p-6">
+                            <div className="flex items-center justify-start gap-2 p-6">
 
                                 <Link to="https://computer-engineer-879da.web.app/">
                                     <button className="btn bg-pink-600 text-white ">
                                         Live demo <FaSquareArrowUpRight />
+                                    </button>
+                                </Link>
+                                <Link to="https://github.com/abubakarseddek1999/computer-engineer-client">
+                                    <button className="btn hover:bg-slate-100 bg-pink-600 text-white ">
+                                        <FaGithub className="text-black text-3xl" />
                                     </button>
                                 </Link>
                             </div>
@@ -56,11 +62,16 @@ const Projects = () => {
                                     This is my NewsBD website. You can read any news in this website.There are news of different publishers here.
                                 </p>
                             </div>
-                            <div className="flex items-center justify-between p-6">
+                            <div className="flex items-center justify-start gap-2 p-6">
 
                                 <Link to="https://bistroboss-d9446.web.app/">
                                     <button className="btn bg-pink-600  text-white ">
                                         Live demo <FaSquareArrowUpRight />
+                                    </button>
+                                </Link>
+                                <Link to="https://github.com/abubakarseddek1999/newspaper-client-side">
+                                    <button className="btn hover:bg-slate-100 bg-pink-600 text-white ">
+                                        <FaGithub className="text-black text-3xl" />
                                     </button>
                                 </Link>
                             </div>
@@ -85,11 +96,16 @@ const Projects = () => {
                                     This is mobile shop website. You can buy various mobile in this website.
                                 </p>
                             </div>
-                            <div className="flex items-center justify-between p-6">
+                            <div className="flex items-center justify-start gap-2 p-6">
 
                                 <Link to="https://ab-tecnology-cfb34.web.app/">
                                     <button className="btn bg-pink-600 text-white ">
                                         Live demo <FaSquareArrowUpRight />
+                                    </button>
+                                </Link>
+                                <Link to="https://github.com/abubakarseddek1999/ab-shop-client">
+                                    <button className="btn hover:bg-slate-100 bg-pink-600 text-white ">
+                                    <FaGithub className="text-black text-3xl" />  
                                     </button>
                                 </Link>
                             </div>

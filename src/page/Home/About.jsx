@@ -12,7 +12,7 @@ const About = () => {
                     <div className="flex justify-center items-center">
                         <div className="p-2">
 
-                            <p className="text-center text-3xl font-bold"> I am <span className="text-3xl text-center text-fuchsia-600 font-bold"> Web developer</span></p>
+                            <p className="text-center mb-5 text-3xl font-bold"> I am <span className="text-3xl text-center text-fuchsia-600 font-bold"> Web developer</span></p>
                             <p>
                                 Experienced with all stages of the development cycle for dynamic web projects. <br /> Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. <br />  I have the experience of creating a few website.
                             </p>
