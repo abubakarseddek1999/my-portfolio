@@ -11,7 +11,9 @@ const Projects = () => {
 
 
                     {/* Project-1 */}
-                    <div className="flex justify-center rounded-xl">
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" className="flex justify-center rounded-xl">
                         <div
                             className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                             <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
@@ -45,7 +47,9 @@ const Projects = () => {
                     </div>
 
                     {/* Project-2 */}
-                    <div className="flex justify-center rounded-xl">
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" className="flex justify-center rounded-xl">
                         <div
                             className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                             <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
@@ -79,7 +83,9 @@ const Projects = () => {
                     </div>
 
                     {/* Project-3 */}
-                    <div className="flex justify-center rounded-xl">
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" className="flex justify-center rounded-xl">
                         <div
                             className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                             <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
@@ -105,7 +111,7 @@ const Projects = () => {
                                 </Link>
                                 <Link to="https://github.com/abubakarseddek1999/ab-shop-client">
                                     <button className="btn hover:bg-slate-100 bg-pink-600 text-white ">
-                                    <FaGithub className="text-black text-3xl" />  
+                                        <FaGithub className="text-black text-3xl" />
                                     </button>
                                 </Link>
                             </div>

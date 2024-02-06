@@ -19,7 +19,7 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className="my-20">
+        <div id="contact" className="card my-20">
             <h2 className="text-2xl md:text-3xl font-bold text-center my-10">Contact me</h2>
             <div className="flex flex-col md:flex-row justify-center gap-10">
                 <div className=" text-center">
