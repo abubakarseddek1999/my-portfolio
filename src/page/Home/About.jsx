@@ -74,7 +74,7 @@ const About = () => {
                                             <FaLinkedin className="text-3xl bg-pink-500 rounded-full"></FaLinkedin>
                                         </Link>
                                     </div>
-                                    <a href="https://drive.usercontent.google.com/u/0/uc?id=1FPJAWVbWisiN69eHQAQE7iPnVikHkJ1-&export=download" download="resume-abubakar.pdf">
+                                    <a href="https://drive.usercontent.google.com/u/0/uc?id=1OuJ2qVqwChvzHFK8F9SePoBvX7cweFrl&export=download" download="resume-abubakar.pdf">
                                         <button className=" flex items-center gap-2 bg-pink-600 btn text-white p-2 rounded-full text-lg font-semibold hover:bg-indigo-800 mt-5 hover:text-white">
                                             Get Resume <MdDownloadForOffline />
                                         </button>

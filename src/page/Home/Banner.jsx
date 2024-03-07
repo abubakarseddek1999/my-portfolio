@@ -30,7 +30,7 @@ const Banner = () => {
                             text-2xl md:text-3xl"> I am front-end developer</span>
                         </h1>
 
-                        <a href="https://drive.usercontent.google.com/u/0/uc?id=1FPJAWVbWisiN69eHQAQE7iPnVikHkJ1-&export=download" download>
+                        <a href="https://drive.usercontent.google.com/u/0/uc?id=1OuJ2qVqwChvzHFK8F9SePoBvX7cweFrl&export=download" download>
                             <button className="bg-pink-600 btn text-white py-2 px-6 rounded-full text-lg font-semibold hover:bg-indigo-800 hover:text-white">
                                 Get Resume <MdDownloadForOffline />
                             </button>
