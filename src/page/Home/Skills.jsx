@@ -3,6 +3,7 @@ import { FaReact, FaCss3, FaBootstrap, FaGitAlt, FaGithub } from "react-icons/fa
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiTailwindcss, SiFirebase, SiMongodb } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 import { TbBrandVscode } from "react-icons/tb";
 import { LuFigma } from "react-icons/lu";
@@ -23,20 +24,32 @@ const Skills = () => {
 
                         <div className="flex flex-wrap gap-3">
 
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <IoLogoHtml5 className="text-2xl text-orange-500" /> HTML
                                 </div>
 
                             </div>
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
+                                <div className="flex items-center gap-1">
+                                    <SiTailwindcss className="text-2xl text-blue-600" /> Tailwind
+                                </div>
 
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            </div>
+
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <FaReact className="text-2xl text-blue-600" /> React Js
                                 </div>
 
                             </div>
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
+                                <div className="flex items-center gap-1">
+                                    <SiRedux  className="text-2xl text-blue-600" /> Redux
+                                </div>
+
+                            </div>
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <RiJavascriptFill className="text-2xl text-yellow-400" /> JavaScript
                                 </div>
@@ -48,19 +61,14 @@ const Skills = () => {
                                 </div>
 
                             </div>
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <SiNextdotjs className="text-2xl" /> Next JS
                                 </div>
 
                             </div>
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
-                                <div className="flex items-center gap-1">
-                                    <SiTailwindcss className="text-2xl text-blue-600" /> Tailwind
-                                </div>
-
-                            </div>
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                           
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <FaBootstrap className="text-2xl text-indigo-600" /> Bootstrap
                                 </div>
@@ -83,20 +91,20 @@ const Skills = () => {
 
                         <div className="flex flex-wrap gap-3">
 
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <SiFirebase className="text-2xl text-orange-400" /> Firebase
                                 </div>
 
                             </div>
 
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <SiMongodb className="text-2xl text-green-600" /> MongoDB
                                 </div>
 
                             </div>
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <DiNodejs className="text-4xl text-green-600" /> Node Js
                                 </div>
@@ -120,26 +128,26 @@ const Skills = () => {
 
                         <div className="flex flex-wrap gap-3">
 
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <FaGitAlt className="text-2xl text-orange-600" /> Git
                                 </div>
 
                             </div>
 
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <FaGithub className="text-2xl text-white" /> GitHub
                                 </div>
 
                             </div>
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <LuFigma className="text-4xl text-white" /> Figma
                                 </div>
 
                             </div>
-                            <div className="border text-center rounded-md p-5 text-xl font-semibold">
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <TbBrandVscode className="text-4xl text-blue-600" /> VS Code
                                 </div>

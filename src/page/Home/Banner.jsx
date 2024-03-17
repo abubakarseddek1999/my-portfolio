@@ -1,5 +1,7 @@
 import { MdDownloadForOffline } from "react-icons/md";
 import Tsparticles from "../../components/Tsparticles";
+import banner from "../../assets/Image/banner.jpg";
+
 
 
 const Banner = () => {
@@ -12,7 +14,7 @@ const Banner = () => {
 
                 <img
                     className="w-full h-64 object-cover object-center md:h-96 lg:h-full"
-                    src="https://i.postimg.cc/tgqkPZhF/240-F-612191697-o3xv1-GFAI24-Sz6-Cu0-Zfv-YXO9bz2-Et-Xq6.jpg"
+                    src={banner}
                     alt="Banner"
                 />
 
