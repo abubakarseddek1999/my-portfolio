@@ -5,7 +5,7 @@ import Tsparticles from "../../components/Tsparticles";
 
 const About = () => {
     return (
-        <div id="about" className="my-20">
+        <div id="about" className="my-20 max-w-[1300px] mx-auto ">
             <Tsparticles></Tsparticles>
 
             <div>

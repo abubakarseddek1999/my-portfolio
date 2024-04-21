@@ -9,7 +9,7 @@ import Skills from "./Skills";
 
 const Home = () => {
     return (
-        <div id="home" className="max-w-[1300px] mx-auto ">
+        <div id="home" className="">
             <Navbar></Navbar>
             <Banner></Banner>
             <About></About>

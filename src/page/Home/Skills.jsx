@@ -10,7 +10,7 @@ import { LuFigma } from "react-icons/lu";
 
 const Skills = () => {
     return (
-        <div id="skills" className="my-16">
+        <div id="skills" className="my-16 max-w-[1300px] mx-auto ">
             <h2 className="text-2xl font-bold text-center mt-16">My Skills:</h2>
             <div className="flex flex-col md:flex-row md:justify-between">
 

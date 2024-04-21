@@ -19,7 +19,7 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className="card my-20">
+        <div id="contact" className="card my-20 max-w-[1300px] mx-auto ">
             <h2 className="text-2xl md:text-3xl font-bold text-center my-10">Contact me</h2>
             <div className="flex flex-col md:flex-row justify-center gap-10">
                 <div className=" text-center">
@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="border border-fuchsia-500  p-5 m-8 rounded-xl bg-slate-700 ">
+            <div className="border border-fuchsia-500  p-5 m-8 rounded-xl bg-slate-800 ">
                 <form ref={form} className="card-body" onSubmit={sendEmail}>
                     <div className="form-control">
                         <label className="label">

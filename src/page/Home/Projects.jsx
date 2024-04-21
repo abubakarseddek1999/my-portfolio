@@ -5,7 +5,7 @@ import domainProjectPhoto from '../../assets/Image/project.png';
 import newsProject from "../../assets/Image/newsproject.png";
 const Projects = () => {
     return (
-        <div id="project" className="my-16 m-2">
+        <div id="project" className="my-16 m-2 max-w-[1300px] mx-auto ">
             <h2 className="text-center text-3xl font-bold my-5">My Projects:</h2>
 
             <div className="">
@@ -17,7 +17,7 @@ const Projects = () => {
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000" className="flex justify-center rounded-xl">
                         <div
-                            className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                            className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-slate-800 text-white bg-clip-border text-gray-700 shadow-md">
                             <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
                                 <img
                                     className="h-[300px] w-full"
@@ -28,7 +28,7 @@ const Projects = () => {
                                 <h4 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                                     Domainhub website
                                 </h4>
-                                <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-gray-700">
+                                <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-white text-gray-700">
                                     This is Domain selling website. You can buy various domain name in this website.
                                 </p>
                             </div>
@@ -54,7 +54,7 @@ const Projects = () => {
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000" className="flex justify-center rounded-xl">
                         <div
-                            className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                            className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-slate-800 bg-clip-border  text-gray-700 shadow-md">
                             <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
                                 <img
                                     className="h-[300px] w-full"
@@ -62,10 +62,10 @@ const Projects = () => {
                                     alt="ui/ux review check" />
                             </div>
                             <div className="p-6 flex-grow">
-                                <h4 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                                <h4 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-white ">
                                     AB Computer Center
                                 </h4>
-                                <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-gray-700">
+                                <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-white ">
                                     This is Computer center website. You can easily any computer repair in this website.
                                 </p>
                             </div>
@@ -90,7 +90,7 @@ const Projects = () => {
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000" className="flex justify-center rounded-xl">
                         <div
-                            className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                            className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-slate-800 text-white bg-clip-border text-gray-700 shadow-md">
                             <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
                                 <img
                                     className="h-[300px] w-full"
@@ -101,7 +101,7 @@ const Projects = () => {
                                 <h4 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                                     NewsBd
                                 </h4>
-                                <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-gray-700">
+                                <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-white">
                                     This is my NewsBD website. You can read any news in this website.There are news of different publishers here.
                                 </p>
                             </div>
