@@ -2,10 +2,13 @@ import { FaGithub } from "react-icons/fa";
 import { FaSquareArrowUpRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import domainProjectPhoto from '../../assets/Image/project.png';
-import newsProject from "../../assets/Image/newsproject.png";
+import newsProject from "../../assets/Image/newspaper.png";
+import computerProject from "../../assets/Image/computer.png";
+import './Project.css'; 
+
 const Projects = () => {
     return (
-        <div id="project" className="my-16 m-2 max-w-[1300px] mx-auto ">
+        <div id="project" className="my-16 m-2 max-w-[1300px] mx-auto p-2">
             <h2 className="text-center text-3xl font-bold my-5">My Projects:</h2>
 
             <div className="">
@@ -18,9 +21,9 @@ const Projects = () => {
                         data-aos-duration="2000" className="flex justify-center rounded-xl">
                         <div
                             className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-slate-800 text-white bg-clip-border text-gray-700 shadow-md">
-                            <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
+                            <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border h-[300px]">
                                 <img
-                                    className="h-[300px] w-full"
+                                    className=" object-cover object-center animate-upDown"
                                     src={domainProjectPhoto}
                                     alt="ui/ux review check" />
                             </div>
@@ -55,10 +58,10 @@ const Projects = () => {
                         data-aos-duration="2000" className="flex justify-center rounded-xl">
                         <div
                             className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-slate-800 bg-clip-border  text-gray-700 shadow-md">
-                            <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
+                           <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border h-[300px]">
                                 <img
-                                    className="h-[300px] w-full"
-                                    src="https://i.postimg.cc/pVsLr1fX/Screenshot-12.png"
+                                    className=" object-cover object-center animate-upDown"
+                                    src={computerProject}
                                     alt="ui/ux review check" />
                             </div>
                             <div className="p-6 flex-grow">
@@ -91,9 +94,9 @@ const Projects = () => {
                         data-aos-duration="2000" className="flex justify-center rounded-xl">
                         <div
                             className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-slate-800 text-white bg-clip-border text-gray-700 shadow-md">
-                            <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
+                           <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border h-[300px]">
                                 <img
-                                    className="h-[300px] w-full"
+                                    className=" object-cover object-center animate-upDown"
                                     src={newsProject}
                                     alt="ui/ux review check" />
                             </div>
