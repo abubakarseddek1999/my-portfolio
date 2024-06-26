@@ -11,14 +11,14 @@ import { LuFigma } from "react-icons/lu";
 const Skills = () => {
     return (
         <div id="skills" className="my-16 max-w-[1300px] mx-auto">
-            <h2 className="text-2xl font-bold text-center mt-16">My Skills:</h2>
+            <h2 className="text-center mb-5 text-3xl md:text-4xl lg:text-5xl font-bold mt-16">My Skills:</h2>
             <div className="flex flex-col md:flex-row md:justify-between">
 
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className="relative flex  m-2 flex-col mt-6  bg-[#0e1421] text-white shadow-md border border-fuchsia-500  rounded-xl md:w-1/3 max-w-[24rem]">
+                    data-aos-duration="2000" className="relative flex  m-2 flex-col mt-6  bg-[#0e1421] text-white shadow-md border border-fuchsia-500  rounded-xl md:w-1/3 max-w-[24rem] min-h-[500px]">
 
-                    <p className=" text-center text-2xl font-bold my-5 ">Frontend</p>
+                    <p className=" text-center text-2xl font-bold my-5 mb-10 ">Frontend</p>
 
                     <div className="p-5 pt-0">
 
@@ -85,7 +85,7 @@ const Skills = () => {
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000" className="relative flex m-2 flex-col mt-6  bg-[#0e1421] text-white shadow-md border border-fuchsia-500  rounded-xl md:w-1/3 max-w-[24rem]">
-                    <p className=" text-center text-2xl font-bold my-5 ">Backend</p>
+                    <p className=" text-center text-2xl font-bold my-5 mb-10  ">Backend</p>
 
                     <div className="p-5 pt-0">
 
@@ -122,7 +122,7 @@ const Skills = () => {
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000" className="relative flex m-2 flex-col mt-6  bg-[#0e1421] text-white  border border-fuchsia-500 shadow-2xl rounded-xl md:w-1/3 max-w-[24rem]">
-                    <p className=" text-center text-2xl font-bold my-5 ">Others</p>
+                    <p className=" text-center text-2xl font-bold my-5 mb-10 ">Others</p>
 
                     <div className="p-5 pt-0">
 

@@ -9,7 +9,7 @@ import './Project.css';
 const Projects = () => {
     return (
         <div id="project" className="my-16 m-2 max-w-[1300px] mx-auto p-2">
-            <h2 className="text-center text-3xl font-bold my-5">My Projects:</h2>
+            <h2 className="text-center mb-5 text-3xl md:text-4xl lg:text-5xl font-bold my-5">My Projects:</h2>
 
             <div className="">
                 <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">

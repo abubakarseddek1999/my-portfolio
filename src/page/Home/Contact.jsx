@@ -19,8 +19,11 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className="card my-20 max-w-[1300px] mx-auto ">
-            <h2 className="text-2xl md:text-3xl font-bold text-center my-10">Contact me</h2>
+        <div id="contact" className="card max-w-[1300px] mx-auto ">
+            {/* section title */}
+
+            <h2 className="text-center mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">Contact me</h2>
+
             <div className="flex flex-col md:flex-row justify-center gap-10">
                 <div className=" text-center">
                     <div className="text-3xl text-pink-600 flex justify-center"><IoCall /></div>
@@ -43,42 +46,44 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="border border-fuchsia-500  p-5 m-8 rounded-xl bg-slate-800 ">
-                <form ref={form} className="card-body" onSubmit={sendEmail}>
-                    <div className="form-control">
-                        <label className="label">
-                            <span className="label-text font-bold text-white">Name</span>
-                        </label>
-                        <input type="text" placeholder="Your name" name="from_name" className="input border input-bordered" required />
+            <div className="p-5 m-8 rounded-xl bg-slate-800  flex flex-col md:flex-row">
+                <div className="w-full md:w-1/2">
+                    <img className="" src="https://i.postimg.cc/FFZQSYWj/12982910-5124556-removebg-preview.png" alt="" />
+                    <div className="text-center">
+                        <p className="text-xl md:text-4xl lg:text-5xl font-bold text-white">Abu bakar</p>
+                        <p className="text-xl text-white font-bold">MERN Stack Developer</p>
                     </div>
-                    <div className="form-control">
-                        <label className="label">
-                            <span className="label-text font-bold text-white">Email</span>
-                        </label>
-                        <input type="email" placeholder="Your email" name="from_email" className="input input-bordered" required />
-                    </div>
+                </div>
+                <div className="w-1/2">
+                    <form ref={form} className="card-body" onSubmit={sendEmail}>
+                        <div className="flex flex-col lg:flex-row justify-between gap-5">
+                            <div className="form-control w-full">
+                                <label className="label">
+                                    <span className="label-text font-bold text-white">Name</span>
+                                </label>
+                                <input type="text" placeholder="Your name" name="from_name" className="input border input-bordered" required />
+                            </div>
+                            <div className="form-control w-full">
+                                <label className="label">
+                                    <span className="label-text font-bold text-white">Email</span>
+                                </label>
+                                <input type="email" placeholder="Your email" name="from_email" className="input input-bordered" required />
+                            </div>
 
-                    <div className="form-control">
-                        <label className="label">
-                            <span className="label-text font-bold text-white">Message</span>
-                        </label>
-                        <textarea className="border rounded" name="message" />
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text font-bold text-white">Message</span>
+                            </label>
+                            {/* <textarea className="border rounded" name="message" /> */}
+                            <textarea className="border rounded" name="" id="" cols="30" rows="10"></textarea>
 
 
-                        <input className="btn mt-5 uppercase font-bold text-xl" type="submit" value="Send" />
-                    </div>
+                            <input className="btn mt-5 uppercase font-bold text-xl" type="submit" value="Send" />
+                        </div>
 
-                    {/* <label>Name</label> 
-                    <input type="text" name="from_name" /> */}
-
-                    {/* <label>Email</label>
-                    <input type="email" name="from_email" /> */}
-
-                    {/* <label>Message</label>
-                    <textarea name="message" />
-
-                    <input type="submit" value="Send" /> */}
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     );

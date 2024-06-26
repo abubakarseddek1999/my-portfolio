@@ -5,7 +5,7 @@ import Tsparticles from "../../components/Tsparticles";
 
 const About = () => {
     return (
-        <div id="about" className="my-20 max-w-[1300px] mx-auto ">
+        <div id="about" className="my-12 max-w-[1300px] mx-auto ">
             <Tsparticles></Tsparticles>
 
             <div>
@@ -14,8 +14,8 @@ const About = () => {
                     <div className="flex justify-center items-center">
                         <div className="p-2">
 
-                            <p className="text-center mb-5 text-3xl font-bold"> I am <span className="text-3xl text-center text-fuchsia-600 font-bold"> Web developer</span></p>
-                            <p>
+                            <p className="text-center mb-5 text-3xl md:text-4xl lg:text-5xl font-bold"> I am <span className="text-3xl text-center text-fuchsia-600 font-bold"> Web developer</span></p>
+                            <p className="md:text-xl">
                                 Experienced with all stages of the development cycle for dynamic web projects. <br /> Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, react js. <br />  I have the experience of creating a few website.
                             </p>
 

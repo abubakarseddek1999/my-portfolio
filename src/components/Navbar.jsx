@@ -1,4 +1,5 @@
 
+import { Player } from "@lottiefiles/react-lottie-player";
 import { useEffect } from "react";
 import { useState } from "react";
 
@@ -33,27 +34,18 @@ const Navbar = () => {
         <a href="#skills" >Skills</a>
         <a href="#contact" >Contact</a>
 
-
-
-
     </>
     return (
         <div>
             <div className="navbar fixed z-20 bg-opacity-40 code bg-black shadow-lg  text-white mx-w-full ">
                 <div className="min-w-[1300px] mx-auto flex justify-around">
+                    {/* left side logo */}
                     <div className="navbar-start">
-                        {/* <div className="dropdown ">
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-black bg-base-100 rounded-box w-52">
-                            {navLink}
-                        </ul>
-                      </div> */}
+                        <img className="rounded-full w-14 h-14 bg-white" src="https://i.postimg.cc/BbdT4vt5/IMG-20240112-101143-removebg-preview.png" alt="" />
                     </div>
 
                     <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal gap-5 px-1">
+                        <ul className="menu menu-horizontal gap-5 text-xl font-semibold px-1">
                             {navLink}
                         </ul>
                     </div>
