@@ -30,29 +30,29 @@ const Certificate = () => {
     }, []);
 
     const certificates = [
-        
+
         {
             id: 1,
-            img:"https://i.postimg.cc/N0jjZM7R/certificate-1-1.png",
+            img: "https://i.postimg.cc/N0jjZM7R/certificate-1-1.png",
             imageName: "certificate-1-1.png",
             courseName: "MERN Stack Development",
             organization: "Programming Hero",
             credentialId: "WEB8-2772",
             skills: "MERN Stack Development",
         },
-    
+
         {
             id: 2,
-            img:"https://i.postimg.cc/gkh4QyYb/Communication-Hacks.jpg",
+            img: "https://i.postimg.cc/gkh4QyYb/Communication-Hacks.jpg",
             imageName: "Communication-Hacks.jpg",
             courseName: "Communication Hacks",
             organization: "10 Minute School",
-            credentialId:"661277056bfdc",
+            credentialId: "661277056bfdc",
             skills: "Communication Hacks",
         },
         {
             id: 3,
-            img:"https://i.postimg.cc/9MdRhfNb/CV-writing.jpg",
+            img: "https://i.postimg.cc/9MdRhfNb/CV-writing.jpg",
             imageName: "CV-writing.jpg",
             courseName: "CV Writing & Interview",
             organization: "10 Minute School",
@@ -61,7 +61,7 @@ const Certificate = () => {
         },
         {
             id: 4,
-            img:"https://i.postimg.cc/fWfgRjG7/Presentation-and-public-speeking.jpg",
+            img: "https://i.postimg.cc/fWfgRjG7/Presentation-and-public-speeking.jpg",
             imageName: "Presentation-and-public-speeking.jpg",
             courseName: "Presentation & Public Speaking",
             organization: "10 Minute School",
@@ -72,8 +72,8 @@ const Certificate = () => {
 
 
     return (
-        <div className="max-w-[1300px] mx-auto py-32">
-            <div className=" flex flex-col lg:flex-row max-w-7xl ml-5 gap-10 ">
+        <div className="max-w-[1300px] mx-auto md:py-32">
+            <div className=" flex flex-col lg:flex-row max-w-7xl m-5 gap-10 ">
 
                 <div>
                     <h1 style={{ letterSpacing: '0.2em' }} className='text-white text-2xl xs:text-2xl semi-sm:text-3xl md:text-4xl font-poppins font-bold mb-3'>Check Out</h1>
@@ -81,12 +81,11 @@ const Certificate = () => {
                     <p className='text-white font-lora text-base md:w-96'>I have done programmimg courses to increase my programming skills and i'm also done communication and presentation courses,i am sharing few of them</p>
 
                     <div className='flex items-center mt-10'>
-                        <button className="xs:px-3 xs:py-1 sm:px-5 sm:py-2 semi-sm:px-7 semi-sm:py-3 bg-[#f343a4] flex items-center font-lora  text-white hover:bg-[#070707] hover:text-white font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }}><span className="text-base">Know More</span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
+                        <button className="xs:px-3 p-2 xs:py-1 sm:px-5 sm:py-2 semi-sm:px-7 semi-sm:py-3 bg-[#f343a4] flex items-center font-lora  text-white hover:bg-[#070707] hover:text-white font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }}><span className="text-base">Know More</span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
                     </div>
                 </div>
 
-
-                <div className="lg:w-3/5 w-full px-5 md:px-2 lg:px-0">
+                <div className="lg:w-3/5 w-full  md:px-2 lg:px-0">
 
                     <Swiper
                         modules={[Navigation, Pagination, A11y]}
@@ -125,7 +124,7 @@ const Certificate = () => {
 
                                 <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>{certificate?.courseName}</h3>
                                 <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>{certificate?.organization}</h5>
-                                <dialog id={`my_modal_${certificate.id}`}  className="modal">
+                                <dialog id={`my_modal_${certificate.id}`} className="modal">
 
                                     <div className="modal-box w-11/12 max-w-5xl modal-container">
 
@@ -138,7 +137,9 @@ const Certificate = () => {
                                         </div>
                                         <hr className="mt-3 mb-3" />
                                         <div>
-                                            <img className='rounded-md' src={certificate?.img} alt="" />
+                                            <div>
+                                                {/* <img className='rounded-md object-cover' src={certificate?.img} alt="" /> */}
+                                            </div>
                                             <hr className="mt-1 mb-5" />
                                             <h1 className='text-base sm:text-lg semi-sm:text-xl md:text-2xl font-lora font-medium mt-2 ml-2 lg:ml-4'><span className='font-poppins font-bold'>Course Name :</span> {certificate?.courseName}</h1>
                                             <h1 className='text-base sm:text-lg semi-sm:text-xl md:text-2xl font-lora font-medium mt-2 ml-2 lg:ml-4'><span className='font-poppins font-bold'>Issuing organization :</span> {certificate?.organization}</h1>

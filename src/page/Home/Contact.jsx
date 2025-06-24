@@ -46,7 +46,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="p-5 m-8 rounded-xl bg-slate-800  flex flex-col md:flex-row">
+            <div className="md:p-5 m-2 md:m-8 rounded-xl bg-slate-800  flex flex-col md:flex-row">
                 <div className="w-full md:w-1/2">
                     <img className="" src="https://i.postimg.cc/FFZQSYWj/12982910-5124556-removebg-preview.png" alt="" />
                     <div className="text-center">
@@ -54,7 +54,7 @@ const Contact = () => {
                         <p className="text-xl text-white font-bold">MERN Stack Developer</p>
                     </div>
                 </div>
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                     <form ref={form} className="card-body" onSubmit={sendEmail}>
                         <div className="flex flex-col lg:flex-row justify-between gap-5">
                             <div className="form-control w-full">
