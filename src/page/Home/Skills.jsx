@@ -1,7 +1,7 @@
 import { IoLogoHtml5 } from "react-icons/io";
 import { FaReact, FaCss3, FaBootstrap, FaGitAlt, FaGithub } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiTailwindcss, SiFirebase, SiMongodb } from "react-icons/si";
+import { SiTailwindcss, SiFirebase, SiMongodb, SiTypescript, SiExpress } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
@@ -45,6 +45,12 @@ const Skills = () => {
                             </div>
                             <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
+                                    <SiNextdotjs className="text-2xl text-white" /> Next Js
+                                </div>
+
+                            </div>
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
+                                <div className="flex items-center gap-1">
                                     <SiRedux  className="text-2xl text-blue-600" /> Redux
                                 </div>
 
@@ -57,7 +63,7 @@ const Skills = () => {
                             </div>
                             <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
-                                    <RiTypeScriptFill className="text-2xl text-yellow-400" /> TypeScript
+                                    <SiTypescript className="text-2xl text-yellow-400" /> TypeScript
                                 </div>
 
                             </div>
@@ -112,13 +118,16 @@ const Skills = () => {
                             </div>
                             <div className="border text-center rounded-md p-3 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
-                                    <DiNodejs className="text-4xl text-green-600" /> Node Js
+                                    <SiExpress  className="text-2xl text-white" /> Express.js
                                 </div>
 
                             </div>
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
+                                <div className="flex items-center gap-1">
+                                    <DiNodejs className="text-4xl text-green-600" /> Node.js
+                                </div>
 
-
-
+                            </div>
 
                         </div>
 
