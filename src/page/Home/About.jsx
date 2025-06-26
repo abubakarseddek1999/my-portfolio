@@ -6,10 +6,9 @@ import Tsparticles from "../../components/Tsparticles";
 const About = () => {
     return (
         <div id="about" className="my-12 max-w-[1300px] mx-auto ">
-            <Tsparticles></Tsparticles>
+            {/* <Tsparticles></Tsparticles> */}
 
             <div>
-
                 <div>
                     <div className="flex justify-center items-center">
                         <div className="p-2">

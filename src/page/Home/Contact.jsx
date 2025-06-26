@@ -19,12 +19,12 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className="card max-w-[1300px] mx-auto ">
+        <div id="contact" className="card max-w-[1300px] mx-auto mt-10">
             {/* section title */}
 
             <h2 className="text-center mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">Contact me</h2>
 
-            <div className="flex flex-col md:flex-row justify-center gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                 <div className=" text-center">
                     <div className="text-3xl text-pink-600 flex justify-center"><IoCall /></div>
                     <p className="text-2xl font-bold">Call</p>

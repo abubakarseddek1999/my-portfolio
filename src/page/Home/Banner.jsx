@@ -7,7 +7,7 @@ import banner from "../../assets/Image/banner.jpg";
 const Banner = () => {
     return (
         <div className="card">
-            <Tsparticles></Tsparticles>
+            {/* <Tsparticles></Tsparticles> */}
 
             <div style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),  url(${banner})`,

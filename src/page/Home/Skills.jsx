@@ -55,6 +55,12 @@ const Skills = () => {
                                 </div>
 
                             </div>
+                            <div className="border text-center rounded-md p-3 text-xl font-semibold">
+                                <div className="flex items-center gap-1">
+                                    <RiTypeScriptFill className="text-2xl text-yellow-400" /> TypeScript
+                                </div>
+
+                            </div>
                             <div className="border text-center rounded-md p-5 text-xl font-semibold">
                                 <div className="flex items-center gap-1">
                                     <FaCss3 className="text-2xl text-blue-600" /> CSS
